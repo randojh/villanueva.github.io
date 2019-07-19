@@ -1,0 +1,41 @@
+*{
+    font-family: helvetica !important;
+}
+.logo{
+    height: 90px; /*no se nota el cambio*/
+}
+.banner-altura{
+    height: 500px;
+}
+.servicios{
+    background-color: rgb(228, 228, 228);
+}
+.fondo-articulo{
+    background-color: white;
+}
+main .servicios h2{
+    font-weight: bold;
+    color: black;
+}
+.enginers{
+    background-color: rgb(228, 228, 228);
+}
+.message{
+    background: none;
+}
+.message-body{
+    margin-bottom: 10px; 
+    background-color: white;
+}
+.centrado{
+    text-align: center;
+}
+.column.tile{
+    background-color: aquamarine;
+}
+.post-recientes{
+    background-color: rgb(228, 228, 228);
+}
+.footer{
+    padding: 20px;
+}

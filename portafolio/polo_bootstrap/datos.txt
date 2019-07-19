@@ -1,0 +1,3 @@
+DOM = document object model (todo el HTML)
+API = Aplication programing Interface
+

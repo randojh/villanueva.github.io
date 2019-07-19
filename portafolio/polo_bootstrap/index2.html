@@ -1,0 +1,30 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1 id="titulo">title</h1>
+    <p class="parrafo">
+        Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Quibusdam incidunt nesciunt reprehenderit dolorum
+        molestiae pariatur. Asperiores debitis culpa consequuntur corporis mollitia aspernatur explicabo nihil, natus
+        sequi at nostrum amet incidunt.
+    </p>
+    <a href="#ruta">link <strong>bold</strong></a>
+
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function(){
+                $('#titulo').text('Jquery es facilito');
+                console.log('El titulo a sido cambiado');
+                //$('.parrafo').text('jQuery es una libreria de JavaScrip fácil de aprender');
+                console.log('El parrafo se cambió');
+                //$('a').text('Más información');
+                console.log('El link fue cambiado');
+                $('.parrafo strong').text('negrita');
+            }
+        );
+    </script>
+</body>
+</html>

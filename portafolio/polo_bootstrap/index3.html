@@ -1,0 +1,79 @@
+<html>
+
+<head></head>
+
+<body>
+    <h1 id="titulo">title</h1>
+    <p class="parrafo">
+        Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Quibusdam incidunt nesciunt reprehenderit dolorum
+        molestiae pariatur. Asperiores debitis culpa consequuntur corporis mollitia aspernatur explicabo nihil, natus
+        sequi at nostrum amet incidunt.
+    </p>
+    <a href="#ruta">link <strong>bold</strong></a>
+
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function(){
+                /*  EJERCICIO 1
+                var saludo, nombre, apellido, edad, dir;
+                nombre = "Rolando ";
+                apellido = "Villanueva ";
+                saludo = "Buenas tardes Sr. ";
+                edad = "26";
+                dir = "Ate";
+                console.log(saludo+nombre+apellido);
+                console.log('Usted tiene '+edad+'años');
+                console.log('Usted vive en el distrito de '+dir);*/
+
+                /* EJERCICIO 2
+                var id, clase, ref;
+                id = $('h1').attr('id');
+                clase = $('p').attr('class');
+                ref = $('a').attr('href');
+                console.log('Sus datos son: \n ID: '+id+'\n Clase: '+ clase + '\n Link: '+ref);*/
+                
+                /* EJERCICIO 3
+                aqui cambiamos los atributos en el html
+                $('h1').attr('id','nuevo-titulo');*/
+
+                /* EJERCICIO 4
+                $('p').attr('class','resumen');
+                $('a').attr('href','https://www.google.com');
+                $('a').attr('target','_blank');
+                $('p strong').attr('class','resaltado');*/
+                
+                // EJERCICIO 4
+                $('#titulo').css(
+                    {
+                        'text-align' : 'center',
+                        'color' : '#00f'
+                    }
+                );
+                $('.parrafo').css(
+                    {
+                        'color' : '#fff',
+                        'background-color' : '#f00'
+                    }
+                );
+                $('a').css(
+                    {
+                        'background-color' : '#00f',
+                        'border' : 'solid 10px #00f',
+                        'border-radius' : '20px'
+                    }
+                );
+                $('body').css(
+                    {
+                        'max-width' : '800px',
+                        'margin' : '0 auto',
+                        'background-color' : 'rgba(0, 0, 0, 0.8)'
+                    }
+                );
+
+            }
+        );
+    </script>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Froggy dweb | Via Código</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="lib/fontawesome/css/all.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="nav container">
+        <nav class="navbar" role="navigation">
+            <!--"role" señala la función que cumple el objeto (para personas que ciegas por ejemplo)-->
+            <div class="navbar-brand">
+                <!--"navbar-brand" lado izquierdo siempre visible-->
+                <h1>
+                    <a class="navbar-item" href="index.html">
+                        <img class="logo" src="imagenes/logo.png" alt="The Froggy dweb logo" title="The Froggy dweb">
+                    </a>
+                </h1>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <!--"navbar-menu" lado derecho (revisar el responsive)-->
+                <ul class="navbar-end">
+                    <!--"navbar-end" para que este pegado a la derecha-->
+                    <li class="navbar-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">Services</a>
+                        <div class="navbar-dropdown">
+                            <a href="#" class="navbar-item">Servicio 1</a>
+                            <a href="#" class="navbar-item">Servicio 2</a>
+                            <hr class="navbar-divider">
+                            <a href="#" class="navbar-item">Servicio 3</a>
+                        </div>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Portafolio</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="hero">
+        <!--BANNER-->
+        <!--1ra section-->
+        <div>
+            <figure class="image">
+                <img class="banner-altura" src="imagenes/banner.png" alt="Banner Golive" title="GoLive">
+            </figure>
+        </div>
+        <!--2da section-->
+        <section class="servicios section">
+            <div class="container">
+                <div class="columns">
+                    <article class="column is-4">
+                        <figure class="image">
+                            <img src="imagenes/services/services-1.png" title="servicios1" alt="servicios1">
+                        </figure>
+                        <div class="section fondo-articulo">
+                            <h2>Multipurpose theme</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aut ex ratione unde
+                                debitis id neque soluta mollitia culpa quam delectus, quibusdam ipsum harum in explicabo
+                                tempora ut facilis. Perferendis!</p>
+                        </div>
+                    </article>
+                    <article class="column is-4">
+                        <figure class="image">
+                            <img src="imagenes/services/services-2.png" title="servicios2" alt="servicios2">
+                        </figure>
+                        <div class="section fondo-articulo">
+                            <h2>Bootstrap latest</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aut ex ratione unde
+                                debitis id neque soluta mollitia culpa quam delectus, quibusdam ipsum harum in explicabo
+                                tempora ut facilis. Perferendis!</p>
+                        </div>
+                    </article>
+                    <article class="column is-4">
+                        <figure class="image">
+                            <img src="imagenes/services/services-3.png" title="servicios3" alt="servicios3">
+                        </figure>
+                        <div class="section fondo-articulo">
+                            <h2>Iconic font</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo aut ex ratione unde
+                                debitis id neque soluta mollitia culpa quam delectus, quibusdam ipsum harum in explicabo
+                                tempora ut facilis. Perferendis!</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--3ra section-->
+        <section class="temas-multiples section">
+            <div class="container">
+                <div class="columns">
+                    <figure class="column is-6 image">
+                        <img src="imagenes/about/about-1-big.png" title="about-grande" alt="about-grande">
+                    </figure>
+                    <div class="column is-6">
+                        <h2 class="title is-3">Multiple sections in one theme</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ab,
+                            facere corporis laboriosam nesciunt nulla maiores. Quo, earum consectetur blanditiis
+                            dicta
+                            laboriosam soluta ab illum sunt maxime, officia minima temporibus?
+                            Inventore ab,
+                            facere corporis laboriosam nesciunt nulla maiores. Quo, earum consectetur blanditiis
+                            dicta
+                            laboriosam soluta ab illum sunt maxime, officia minima temporibus?
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="columns">
+                            <figure class="column">
+                                <img src="imagenes/about/about-1-small.png" title="about1" alt="about1">
+                            </figure>
+                            <figure class="column">
+                                <img src="imagenes/about/about-2-small.png" title="about2" alt="about2">
+                            </figure>
+                            <figure class="column">
+                                <img src="imagenes/about/about-3-small.png" title="about3" alt="about3">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--4ta section-->
+        <section class="enginers section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h2 class="title is-3">Meet our engineer</h2>
+                        <div class="columns">
+                            <div class="column">
+                                <figure class="image column">
+                                    <img src="imagenes/team/team-1.png" title="harry-dedmon1" alt="harry-dedmon1">
+                                </figure>
+                                <h3>Harry A. Dedmon</h3>
+                                <p>Engineer</p>
+                            </div>
+                            <div class="column">
+                                <figure class="image column">
+                                    <img src="imagenes/team/team-2.png" title="harry-dedmon2" alt="harry-dedmon2">
+                                </figure>
+                                <h3>Harry A. Dedmon</h3>
+                                <p>Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h2 class="title is-3">Common Questions</h2>
+                        <div class="message">
+                            <div class="message-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                                ducimus
+                                in
+                                recusandae fugit. Delectus
+                                enim, impedit et,
+                                sit atque iure maxime suscipit sapiente eos voluptates magnam, placeat repudiandae
+                                nihil
+                                explicabo?
+                            </div>
+                            <div class="message-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                                ducimus
+                                in
+                                recusandae fugit. Delectus
+                                enim, impedit et,
+                                sit atque iure maxime suscipit sapiente eos voluptates magnam, placeat repudiandae
+                                nihil
+                                explicabo?
+                            </div>
+                            <div class="message-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                                ducimus
+                                in
+                                recusandae fugit. Delectus
+                                enim, impedit et,
+                                sit atque iure maxime suscipit sapiente eos voluptates magnam, placeat repudiandae
+                                nihil
+                                explicabo?
+                            </div>
+                            <div class="message-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                                ducimus
+                                in
+                                recusandae fugit. Delectus
+                                enim, impedit et,
+                                sit atque iure maxime suscipit sapiente eos voluptates magnam, placeat repudiandae
+                                nihil
+                                explicabo?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--5ta section-->
+        <section class="clientes section">
+            <div class="container">
+                <h2 class="title is-3 centrado">Clients</h2>
+                <div class="columns">
+                    <figure class="column">
+                        <img src="imagenes/clients/client-1.png" title="photodune" alt="photodune">
+                    </figure>
+                    <figure class="column">
+                        <img src="imagenes/clients/client-2.png" title="codecanyon" alt="codecanyon">
+                    </figure>
+                    <figure class="column">
+                        <img src="imagenes/clients/client-3.png" title="themeforest" alt="themeforest">
+                    </figure>
+                    <figure class="column">
+                        <img src="imagenes/clients/client-4.png" title="photodune" alt="photodune">
+                    </figure>
+                    <figure class="column">
+                        <img src="imagenes/clients/client-4.png" title="photodune" alt="photodune">
+                    </figure>
+                    <figure class="column">
+                        <img src="imagenes/clients/client-3.png" title="themeforest" alt="themeforest">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!--6ta section-->
+        <section class="post-recientes section">
+            <div class="container">
+                <div class="columns">
+                    <article class="column is-6">
+                        <figure class="image">
+                            <img src="imagenes/post/recent-post-2.jpg" title="post1" alt="post1">
+                        </figure>
+                        <div class="section fondo-articulo">
+                            <h2>Lorem, ipsum dolor Voluptate, doloremque.</h2>
+                            <p><strong>0</strong> comments | <strong>Autor:</strong> Nilanjan | <strong>Date:</strong>
+                                11-jan-2017</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur id explicabo modi
+                                earum
+                                ipsum
+                                deserunt voluptatibus aliquid delectus dicta. Voluptatum aspernatur inventore a dicta
+                                nihil.
+                                Odio
+                                magni eligendi eius molestias.</p>
+                            <p><a class="button is-danger" href="#">Read More</a></p>
+                        </div>
+                    </article>
+                    <article class="column">
+                        <figure class="image">
+                            <img src="imagenes/post/recent-post-3.jpeg" title="post2" alt="post2">
+                        </figure>
+                        <div class="section fondo-articulo">
+                            <h2>Lorem ipsum dolor sit amet consectetur </h2>
+                            <p><strong>0</strong> comments | <strong>Autor:</strong> Nilanjan | <strong>Date:</strong>
+                                11-jan-2017</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a totam eius neque
+                                officia
+                                error
+                                repudiandae expedita</p>
+                            <p><a class="button is-danger" href="#">Read More</a></p>
+                        </div>
+                    </article>
+                    <article class="column">
+                        <figure class="image">
+                                <img src="imagenes/post/recent-post-4.jpeg" title="post3" alt="post3">
+                        </figure>
+                        <div class="section fondo-articulo">
+                            <h2>Lorem ipsum dolor sit amet consectetur </h2>
+                            <p><strong>0</strong> comments | <strong>Autor:</strong> Nilanjan | <strong>Date:</strong>
+                                11-jan-2017</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a totam eius neque
+                                officia
+                                error
+                                repudiandae expedita</p>
+                            <p><a class="button is-danger" href="#">Read More</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Copyright&copy; 2017. All Rights Reserved</p>
+        </div>
+    </footer>
+    <div id="btn-menu" class="position-fixed">
+        <a href="../../index.html">
+            <i class="fas fa-home"></i> 
+        </a>
+    </div>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(
+            function(){
+                //console.log('Hola mundo, listo para manipular el DOM.'); 
+                //el resultado se encuentra eubn la consola (F12)
+                $('#btn-menu').css({
+                    'position': 'fixed',
+                    'font-size': '3rem',
+                    'bottom': '40px',
+                    'right': '20px'
+                });
+            }
+        );
+    </script>
+</body>
+
+</html>

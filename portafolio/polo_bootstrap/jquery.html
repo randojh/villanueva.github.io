@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery | Skyd</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="#" id="btnmostrar" class="btn btn-primary">mostrar</a>
+        <a href="#" id="btnfade" class="btn">mostrar fadeIn</a>
+        <a href="#" id="btnocultar" class="btn">ocultar</a>
+        <h1 id="titulo" class="text-center">jQuery is facilito</h1>
+
+    </div>
+    
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btnocultar').on('click', function () {
+                $('#titulo').hide();
+            });
+            $('#btnmostrar').on('click', function () {
+                $('#titulo').show();
+            });
+            $('#btnfade').on('click', function () {
+                $('#titulo').fadeIn();
+            });
+        });
+    </script>
+</body>
+
+</html>
